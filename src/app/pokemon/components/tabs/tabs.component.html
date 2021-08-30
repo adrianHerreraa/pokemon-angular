@@ -1,0 +1,8 @@
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" (click)="this.currentTab = 'tab-pokemons'" [ngClass]="{ 'active': this.currentTab === 'tab-pokemons'}" href="#">Pókemons</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" (click)="this.currentTab = 'tab-favorites'" [ngClass]="{ 'active': this.currentTab === 'tab-favorites'}" href="#">Favoritos</a>
+    </li>
+</ul>
